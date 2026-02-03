@@ -1,3 +1,5 @@
+// Link: https://leetcode.com/problems/maximum-average-subarray-i/ 
+
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         int windowSum =0;
@@ -13,3 +15,4 @@ class Solution {
         return (double)maxSum/k;
     }
 }
+
