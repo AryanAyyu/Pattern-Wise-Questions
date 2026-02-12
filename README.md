@@ -25,3 +25,4 @@ b completly overlaps a
 a and b do not overlap
 Understanding the above six cases will help us in solving all intervals related problems.
 ![alt text](image-1.png)
+
