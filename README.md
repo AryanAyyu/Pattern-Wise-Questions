@@ -25,4 +25,8 @@ b completly overlaps a
 a and b do not overlap
 Understanding the above six cases will help us in solving all intervals related problems.
 ![alt text](image-1.png)
+Time Complexity: O(nlogn)
 
+Pattern 5: Cyclic Sort
+This pattern describes an interesting approach to deal with problems involving arrays containing numbers in a given range.
+Time Complexity = O(n)
