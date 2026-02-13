@@ -30,3 +30,7 @@ Time Complexity: O(nlogn)
 Pattern 5: Cyclic Sort
 This pattern describes an interesting approach to deal with problems involving arrays containing numbers in a given range.
 Time Complexity = O(n)
+
+Pattern 6: In-place Reversal of a LinkedList
+In a lot of problems, we are asked to reverse the links between a set of nodes of a LinkedList. Often, the constraint is that we need to do this in-place, i.e., using the existing node objects and without using extra memory.
+Time Complexity : O(n)
