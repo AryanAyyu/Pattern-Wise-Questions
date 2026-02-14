@@ -34,3 +34,10 @@ Time Complexity = O(n)
 Pattern 6: In-place Reversal of a LinkedList
 In a lot of problems, we are asked to reverse the links between a set of nodes of a LinkedList. Often, the constraint is that we need to do this in-place, i.e., using the existing node objects and without using extra memory.
 Time Complexity : O(n)
+
+Pattern 7: Tree Breadth First Search
+This pattern is based on the Breadth First Search (BFS) technique to traverse a tree.
+
+Any problem involving the traversal of a tree in a level-by-level order can be efficiently solved using this approach. We will use a Queue to keep track of all the nodes of a level before we jump onto the next level. This also means that the space complexity of the algorithm will be O(W), where W is the maximum number of nodes on any level.
+Time Complexity: O(n)
+
