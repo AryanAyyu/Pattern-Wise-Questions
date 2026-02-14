@@ -41,3 +41,8 @@ This pattern is based on the Breadth First Search (BFS) technique to traverse a 
 Any problem involving the traversal of a tree in a level-by-level order can be efficiently solved using this approach. We will use a Queue to keep track of all the nodes of a level before we jump onto the next level. This also means that the space complexity of the algorithm will be O(W), where W is the maximum number of nodes on any level.
 Time Complexity: O(n)
 
+Pattern 8: Tree Depth First Search (DFS)
+This pattern is based on the Depth First Search (DFS) technique to traverse a tree.
+
+We will be using recursion (or we can also use a stack for the iterative approach) to keep track of all the previous (parent) nodes while traversing. This also means that the space complexity of the algorithm will be O(H), where H is the maximum height of the tree.
+Time Complexity : O(n)
