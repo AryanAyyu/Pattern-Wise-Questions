@@ -46,3 +46,11 @@ This pattern is based on the Depth First Search (DFS) technique to traverse a tr
 
 We will be using recursion (or we can also use a stack for the iterative approach) to keep track of all the previous (parent) nodes while traversing. This also means that the space complexity of the algorithm will be O(H), where H is the maximum height of the tree.
 Time Complexity : O(n)
+
+Pattern 9: Two Heaps
+In many problems, where we are given a set of elements such that we can divide them into two parts. To solve the problem, we are interested in knowing the smallest element in one part and the biggest element in the other part. This pattern is an efficient approach to solve such problems.
+
+This pattern uses two Heaps to solve these problems; A Min Heap to find the smallest element and a Max Heap to find the biggest element.
+
+Although this course uses Heaps to solve Top 'K' Elements problems, JavaScript does not have a built in method for Heaps/Priority Queues. It can be very time consuming to implement a Heap class from scratch, especially during an interview. After reviewing the JavaScript solutions on Leetcode the most effecient way to solve a Top 'K' Elements problem is usually with QuickSort, BinarySearch, BucketSort, Greedy Algorithms, or HashMaps.
+Time Complexity : O(NlogN)
