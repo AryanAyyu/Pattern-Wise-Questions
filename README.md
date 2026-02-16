@@ -57,4 +57,4 @@ Time Complexity : O(NlogN)
 
 Pattern 10: Subsets
 A huge number of coding interview problems involve dealing with Permutations and Combinations of a given set of elements. This pattern describes an efficient Breadth First Search (BFS) approach to handle all these problems.
-Time Complexity : O(
+Time Complexity : O(N*2^N)
