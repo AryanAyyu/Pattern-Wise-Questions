@@ -54,3 +54,7 @@ This pattern uses two Heaps to solve these problems; A Min Heap to find the smal
 
 Although this course uses Heaps to solve Top 'K' Elements problems, JavaScript does not have a built in method for Heaps/Priority Queues. It can be very time consuming to implement a Heap class from scratch, especially during an interview. After reviewing the JavaScript solutions on Leetcode the most effecient way to solve a Top 'K' Elements problem is usually with QuickSort, BinarySearch, BucketSort, Greedy Algorithms, or HashMaps.
 Time Complexity : O(NlogN)
+
+Pattern 10: Subsets
+A huge number of coding interview problems involve dealing with Permutations and Combinations of a given set of elements. This pattern describes an efficient Breadth First Search (BFS) approach to handle all these problems.
+Time Complexity : O(
